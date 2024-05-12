@@ -1,4 +1,4 @@
-# SchoolSearchApplication-demo(학교검색서비스 데모)
+# SchoolSearchApplication-demo(학교정보 검색서비스 데모)
 1. 소스 다운로드 이후, Reload All Gradle Projects 실행
 1. SchoolSearchApplication의 run 메소드의 메서드 실행
 1. indexSchoolInfoService.createIndex() 를 통해 index 생성
@@ -54,3 +54,6 @@
                     └── schoolSearch
                         └── AnalyzerTest.java
 ```
+
+## 블로그 정리
+- [블로그 정리](https://blog.naver.com/divdivdiv/223405382832)
