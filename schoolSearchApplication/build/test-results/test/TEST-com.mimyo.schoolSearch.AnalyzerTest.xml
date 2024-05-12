@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.mimyo.schoolSearch.AnalyzerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-05-12T09:10:37" hostname="lyujun-yeong-ui-MacBookAir.local" time="0.029">
+  <properties/>
+  <testcase name="Analyzer 분석 결과 출력" classname="com.mimyo.schoolSearch.AnalyzerTest" time="0.029"/>
+  <system-out><![CDATA[org.apache.lucene.analysis.core.WhitespaceAnalyzer 를 이용한 분석
+아이유가 ]]>&#x1f53b;<![CDATA[ 부릅니다. ]]>&#x1f53b;<![CDATA[ 블루밍. ]]>&#x1f53b;<![CDATA[ IU ]]>&#x1f53b;<![CDATA[ is ]]>&#x1f53b;<![CDATA[ singing ]]>&#x1f53b;<![CDATA[ strawberry. ]]>&#x1f53b;<![CDATA[ ]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

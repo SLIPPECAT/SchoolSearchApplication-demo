@@ -1,0 +1,50 @@
+plugins {
+    id 'java'
+    id 'org.springframework.boot' version '3.2.4'
+    id 'io.spring.dependency-management' version '1.1.4'
+}
+
+group = 'com.schoolSearch'
+version = '0.0.1-SNAPSHOT'
+
+
+java {
+    sourceCompatibility = '17'
+}
+
+repositories {
+    mavenCentral()
+}
+
+configurations {
+    compileOnly {
+        extendsFrom annotationProcessor
+    }
+}
+
+ext {
+    luceneVersion = '9.10.0'
+}
+
+dependencies {
+    // 클라이언트에 검색 요청을 받고 검색 결과를 반환하기 위한 web
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    // 개발 편의성을 위한 Lombok 라이브러리
+    compileOnly 'org.projectlombok:lombok'
+    annotationProcessor 'org.projectlombok:lombok'
+    // 기본적인 색인, 색인에서의 검색을 위한 core 라이브러리
+    implementation "org.apache.lucene:lucene-core:$luceneVersion"
+    implementation "org.apache.lucene:lucene-queryparser:$luceneVersion"
+    implementation "org.apache.lucene:lucene-analysis-common:$luceneVersion"
+    // 한글 분석을 위한 라이브러리
+    implementation 'org.apache.lucene:lucene-analyzers-nori:8.11.3'
+    implementation "org.apache.lucene:lucene-analysis-nori:$luceneVersion"
+    // csv 파싱을 위한 라이브러리
+    implementation 'org.apache.commons:commons-csv:1.10.0'
+
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+}
+
+tasks.named('test') {
+    useJUnitPlatform()
+}
