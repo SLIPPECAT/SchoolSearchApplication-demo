@@ -6,9 +6,9 @@
 
 ## 주요 기능
 ### 색인 기능
-- IndexSchoolInfoService의createIndex() 메서드
+- IndexSchoolInfoService의createIndex() 메서드
 ### 검색 기능
-- SearchSchoolService의 search() 메서드
+- SearchSchoolService의search() 메서드
 
 ## 데이터
 - 수집 : [나이스 교육정보 개방포털](https://open.neis.go.kr/portal/data/service/selectServicePage.do?page=1&rows=10&sortColumn=&sortDirection=&infId=OPEN17020190531110010104913&infSeq=3)
