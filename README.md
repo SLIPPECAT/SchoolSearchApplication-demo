@@ -1,8 +1,8 @@
 # SchoolSearchApplication-demo(학교검색서비스 데모)
-순서 1. 소스 다운로드 이후, Reload All Gradle Projects 실행
-순서 2. SchoolSearchApplication의 run 메소드의 메서드 실행
-순서 3. indexSchoolInfoService.createIndex() 를 통해 index 생성
-순서 4. searchSchoolService.search(request) 를 통해 검색
+1. 소스 다운로드 이후, Reload All Gradle Projects 실행
+1. SchoolSearchApplication의 run 메소드의 메서드 실행
+1. indexSchoolInfoService.createIndex() 를 통해 index 생성
+1. searchSchoolService.search(request) 를 통해 검색
 
 ## 주요 기능
 ### 색인 기능
