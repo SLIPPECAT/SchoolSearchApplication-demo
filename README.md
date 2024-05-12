@@ -6,7 +6,7 @@
 
 ## 주요 기능
 ### 색인 기능
-- IndexSchoolInfoService의 createIndex() 메서드
+- IndexSchoolInfoService의createIndex() 메서드
 ### 검색 기능
 - SearchSchoolService의 search() 메서드
 
